@@ -12,7 +12,7 @@
 
 .header {
     min-height: 100vh;
-    background-image: url('/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -145,7 +145,7 @@
 .section_photo__image {
     width: 85%;
     height: 400px;
-    background-image: url('/images/ava.jpg') ;
+    background-image: url('../images/ava.jpg') ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -358,7 +358,7 @@
     width: 24px;
     height: 24px;
     margin-left: -20px;
-    background: url('/images/check.png') no-repeat;
+    background: url('images/check.png') no-repeat;
 }
 
 .wrapper {
