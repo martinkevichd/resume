@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (color)" href="/css/media.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu__item"><a href="#about">About</a></li>
+            <li class="menu__item"><a href="#skills">Skills</a></li>
+            <li class="menu__item"><a href="#education">Education</a></li>
+            <li class="menu__item"><a href="#hobbies">Hobbies</a></li>
+            <li class="menu__item"><a href="#contacts">Contacts</a></li>
+        </ul>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span class="icon"></span>
+            </label>
+            <ul class="menu__box">
+                <li><a  class="menu__item" href="#about">About</a></li>
+                <li><a  class="menu__item" href="#skills">Skills</a></li>
+                <li><a class="menu__item" href="#education">Education</a></li>
+                <li><a class="menu__item" href="#hobbies">Hobbies</a></li>
+                <li><a class="menu__item" href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <header class="header" >
+        <section class="about" id="about">
+            <div class="section_photo">
+                <div class="section_photo__image"></div>
+                <div class="section_photo__name">Darya Martinkevich</div>
+                <div class="section_photo__description">Frontend-developer</div>
+            </div>
+            <div class="section_description">
+                <div class="hello"> Hello!</div>
+                <div class="section_description__about">
+                    I'm a hard-working and team-motivated person,
+                    effective communicator with a great
+                    sense of responsibility.</br>
+                    I am interested in creating user-friendly web pages by writing code and
+                    moving forward in this career.
+                </div>
+                <a href="/resume.pdf" download="" class="download_cv">
+                    <img src="/images/pdf.png" class="icon-cv">
+                    Download resume
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <h2 class="title">Skills</h2>
+            <div class="section_skills">
+                <div class="professional_skills">
+                    <h3 class="skills__title">professional skills</h3>
+                    <div class="skill">HTML&CSS</div> 
+                        <div class="progress-bar">
+                            <span class="html"></span>
+                            <span>85%</span>
+                        </div>
+                    <div class="skill">JavaScript</div>
+                        <div class="progress-bar">
+                            <span class="js"></span>
+                            <span>80%</span>
+                        </div>
+                    <div class="skill">Bootstrap</div>
+                        <div class="progress-bar">
+                            <span class="bootstrap"></span>
+                            <span>80%</span>
+                        </div>
+                    <div class="skill">SASS</div>
+                        <div class="progress-bar">
+                            <span class="sass"></span>
+                            <span>85%</span>
+                        </div>
+                    <div class="skill">React</div>
+                        <div class="progress-bar">
+                            <span class="react"></span>
+                            <span>75%</span>
+                        </div>
+                </div>
+                <div class="additional_skills">
+                    <h3 class="skills__title">soft skills</h3>
+                    <div class="skills__progress">
+                        <div class="progress-circle">
+                            <div class="progress-circle-in"></div>
+                            <span class="progress-circle__percent">100%</span>
+                        </div>
+                        <div class="progress-circle">
+                            <span class="progress-circle__percent">100%</span>
+                        </div>
+                        <div class="progress-circle">
+                            <span class="progress-circle__percent">100%</span>
+                        </div>
+                        
+                    </div>
+                    <ul class="progress-circle__title">
+                        <li>Creativity</li>
+                        <li>Teamwork</li>
+                        <li>Communicaion</li>
+                    </ul>
+
+                    <ul class="skills__add">
+                        <li class="skills__add-item">Leadership</li>
+                        <li class="skills__add-item">Motivalion</li>
+                        <li class="skills__add-item">Decision Making</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="content">
+            <h2 class="title">education</h2>
+            <div class="wrapper">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>Education</h1>
+                                <p>BSUIR</p>
+                                <p>2020-present</p>
+                                <p>Engineer of infocommunication</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>Courses</h1>
+                                <p>2020 MyITSchool</p>
+                                <p>Front-end web development</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>Projects</h1>
+                                <p>SPA application &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://martinkevichd.github.io/react-food/">REACT-FOOD</a></p>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <div class="content">
+            <h2 class="title">Hobbies</h2>
+            <div class="slider-hobbies">
+                <div class="slider__list">
+                    <img class="slider-hobbie" src="/images/cycling.jpg">
+                    <img class="slider-hobbie" src="/images/cooking.png">
+                    <img class="slider-hobbie" src="/images/music.jpg">
+                    <img class="slider-hobbie" src="/images/skiing.jpg">        
+                </div>
+            </div>
+            <div class="slider__btn">
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>    
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="content">
+            <ul class="footer__items">
+                <li><img src="/images/phone.png" alt="map">+375 (29) 585-22-36</li>
+                <li><img src="/images/gmail.png" alt="map">martinkevichdasha@gmail.com</li>
+                <li><img src="/images/map.png" alt="map">Minsk</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/js/index.js"></script>
+</body>
+</html>
